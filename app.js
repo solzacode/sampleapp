@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var cities = {cities:["Mumbai","vijayawada","New Delhi","San Francisco","Hyderabad"]}
+var cities = {cities:["Mumbai","chennai","New Delhi","San Francisco","Hyderabad"]}
 
 app.get('/', function(req, res){
     res.writeHead(200, { 'Content-Type': 'application/json' });
